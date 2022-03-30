@@ -11,3 +11,4 @@
 10-back: changes the working directory to the previous one
 11-lists: List contents of multiple directories
 12-file_type: prints the type of the file named iamafile. The file iamafile will be in the /tmp directory
+13-symbolic_link: Create a symbolic link to /bin/ls, named __ls__ in the current directory
