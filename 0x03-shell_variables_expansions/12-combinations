@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {[a-z]}{[a-z]} | tr -d 'oo'
+echo {[[:lower:]}{[[:lower]]} | tr -d 'oo'
