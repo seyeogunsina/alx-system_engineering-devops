@@ -1,2 +1,2 @@
 #!/bin/bash
-export BINARY | printf "%d\n" "$((2#$((BINARY))))
+export -n BINARY | printf "%d\n" "$((2#$((BINARY))))
